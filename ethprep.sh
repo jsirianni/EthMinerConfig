@@ -1,11 +1,12 @@
+#!/bin/bash
 # Ubuntu 16.04 Eth mining prep
 # v1.0
 
 # Run updates and install packages
 apt-get update
 apt-get dist-upgrade -y
-apt-get install htop iotop nmap fail2ban vim nano wget curl -y
-apt-get install tree rsync unzip bash-completion net-tools screen  -y
+apt-get install htop iotop nmap vim nano wget curl -y
+apt-get install tree rsync unzip bash-completion net-tools screen -y
 
 # Install netdata
 bash <(curl -Ss https://my-netdata.io/kickstart.sh)
