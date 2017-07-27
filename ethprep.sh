@@ -7,6 +7,7 @@ apt-get update
 apt-get dist-upgrade -y
 apt-get install htop iotop nmap vim nano wget curl -y
 apt-get install tree rsync unzip bash-completion net-tools screen -y
+apt-get install libcurl3 -y
 
 # Install netdata
 bash <(curl -Ss https://my-netdata.io/kickstart.sh)
